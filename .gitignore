@@ -7,10 +7,27 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Vite / React
 node_modules
 dist
 dist-ssr
 *.local
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Optional cache
+.cache
+.vite
+coverage
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +39,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# System
+Thumbs.db
+ehthumbs.db
